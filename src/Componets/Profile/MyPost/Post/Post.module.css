@@ -1,0 +1,15 @@
+.Post{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 10%;
+    border: 4px solid fuchsia;
+}
+
+.Message{
+    width: 50%;
+}
+.Message img{
+    width: 100%;
+}

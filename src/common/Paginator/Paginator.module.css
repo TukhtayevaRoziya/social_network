@@ -1,0 +1,12 @@
+.pageNumber {
+    padding    : 2px;
+    margin: 0 5px;
+    padding: 0 10px;
+
+    border     : 1px solid grey;
+}
+
+.pageNumber.selectpage{
+    font-weight: bolder;
+    border: 1px solid black;
+}

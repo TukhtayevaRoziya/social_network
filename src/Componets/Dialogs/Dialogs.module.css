@@ -1,0 +1,84 @@
+.Dialogs {
+    display              : grid;
+    grid-template-columns: 2fr 10fr;
+    margin-left: 2rem;
+}
+
+.Name{
+    margin: 30px 0;
+}
+
+.Name a{
+    font-size: 18px;
+    color: #ccc;
+    transition: 0.3s all cubic-bezier(0.03, 0.52, 1, 1.38);
+}
+
+.activeUser{
+    color: #000 !important;
+    font-size: 22px !important;
+}
+
+.NameItems a{
+    text-decoration: none;
+
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: inherit;
+    margin-left: 0.75rem;
+}
+
+.line{
+    height: 100%;
+    width: 1px;
+    border: 2px solid black;
+}
+
+.NameItems{
+    border-right: 3px solid rgb(197, 197, 197);
+    border-radius: 1.5px;
+}
+
+.MessageItems{
+    padding-left: 60px;
+
+}
+
+.Message h1{
+    font-size: 20px;
+    color: rgb(189, 189, 189);
+    font-weight: 400;
+}
+.Message{
+    width: 300px;
+    border-radius: 7px;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-sizing: border-box !important;
+    border: 3px solid #d5d9e0;
+}
+
+.inp{
+    margin: 5rem 0 0 19%;
+    width: 50%;
+    height:50px;
+    background-color: #e5e8f4;
+    border: none;
+    outline: none !important;
+}
+.inp::placeholder, .inp{
+    font-size: 25px;
+}
+.btn{
+    width: 20%;
+    height: 50px;
+    margin-bottom: 100px;
+    border: none;
+    outline: none;
+    background-color: rgb(0, 17, 54);
+    font-size: 25px;
+    color: #fff;
+}

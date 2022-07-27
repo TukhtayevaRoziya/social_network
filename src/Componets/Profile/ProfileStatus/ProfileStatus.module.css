@@ -1,0 +1,16 @@
+.spanBody div:hover{
+    background-image: url(../../../favicon.ico);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: 25px 100%;
+}
+
+.spanBody div{
+    width: 100%;
+}
+
+.spanBody{
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+}

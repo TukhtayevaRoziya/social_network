@@ -1,0 +1,22 @@
+.AvaDescriptionTitle {
+    color    : #000;
+    font-weight: 500;
+    font-size: 25px;
+    margin   : 1rem 0 0 1rem;
+}
+
+/* user info */
+.ProfileInfo{
+    /* display: flex;
+    flex-direction: row; */
+}
+
+/* user photo */
+.userPhoto{
+    width: 200px;
+    border-radius: 5px;
+}
+
+.contact_menu{
+    padding-left: 1rem;
+}

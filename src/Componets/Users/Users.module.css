@@ -1,0 +1,97 @@
+/* body */
+.UsersPage {
+    height  : 546px;
+    overflow: auto;
+}
+
+/* title */
+.title {
+    margin     : 10px 0 30px 10px;
+    font-weight: 600;
+    color      : rgb(0, 17, 54);
+}
+
+/* users body */
+.Users {
+    display    : flex;
+    margin-left: 20px;
+}
+
+/* img body */
+.img_followed_body {
+    display       : flex;
+    align-items   : center;
+    flex-direction: column;
+    width         : 150px;
+}
+
+.photoBody {
+    margin: 7px 0;
+}
+
+.userPhoto {
+    width        : 80px;
+    height       : 80px;
+    border-radius: 50%;
+}
+
+/* user_description */
+.user_description {
+    border         : 3px solid rgba(0, 17, 54, 0.473);
+    width          : 800px;
+    height         : 100px;
+    border-radius  : 10px;
+    display        : flex;
+    justify-content: space-around;
+}
+
+/* name Vs Status Body */
+
+.nameVsStatusBody {
+    width          : 80%;
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+}
+
+.name {
+    font-size  : 25px;
+    font-weight: 600;
+    color      : rgba(0, 17, 54, 0.747);
+}
+
+.status {
+    font-size: 16px;
+}
+
+/* addres */
+.addres {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+}
+
+.city,
+.country {
+    font-size  : 22px;
+    font-weight: 600;
+    color      : rgba(0, 17, 54, 0.747);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* followed */
+.followed_body button {
+    width           : 100px;
+    height          : 25px;
+    color           : #fff;
+    border          : none;
+    background-color: rgb(0, 17, 54);
+}
+
+/* users current page */
+
+
+.disabled{
+    color: tomato;
+    background-color: tomato;
+}
